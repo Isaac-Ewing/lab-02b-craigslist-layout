@@ -1,0 +1,91 @@
+main {
+    display: grid;
+    width: 900px;
+    height: 100%;
+    grid-template-columns: 150px 1fr 100px;
+    position: center;
+    justify-content: center;
+}
+
+.column1{
+    border: 1px solid black;
+    height: 700px;
+    margin-right: 5px;
+}
+
+.column2 {
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+header {
+    background: white;
+}
+
+.column3 {
+    background: ;
+}
+
+.head {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.bod {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.incol1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.incol2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.incol3 {
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+}
+
+.Comm {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.Serv {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.Disc {
+    border: 1px solid black;
+}
+
+.House {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.Sale {
+    border: 1px solid black;
+}
+
+.Job {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.Gig {
+    border: 1px solid black;
+}
+
+.column3 {
+    border: 1px solid black;
+    height: 700px;
+    margin-left: 5px
+}
